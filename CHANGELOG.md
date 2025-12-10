@@ -4,10 +4,17 @@ All notable changes to AreTheKnicksBetter.com will be documented in this file.
 
 ---
 
+## [1.1.2] - 2024-12-10
+
+### Restored
+- ✅ **Box score link** - Re-added "View full box score →" link to the Top Performer section
+
+---
+
 ## [1.1.1] - 2024-12-10
 
 ### Removed
-- 🗑️ **Box score link** - Removed "View full box score →" link from the Top Performer section
+- 🗑️ **Box score link** - Removed "View full box score →" link from the Top Performer section (test change)
 
 ---
 
