@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are The Knicks Better?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    
+    <!-- Settings toggles -->
+    <div class="settings-toggles">
+        <button class="toggle-btn" onclick="toggleTheme()" title="Toggle light/dark mode">
+            <span id="themeIcon">☀️</span>
+        </button>
+        <button class="toggle-btn" onclick="toggleSound()" title="Toggle sound">
+            <span id="soundIcon">🔊</span>
+        </button>
+    </div>
+    
+    <main class="container">
+        <header class="header">
+            <div class="knicks-logo">
+                <img src="https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg" alt="New York Knicks" class="logo-img">
+            </div>
+            <h1 class="title">
+                <span class="title-line-1">Are the <span class="knicks-text">Knicks</span> better than</span>
+                <span class="title-line-2">
+                    the
+                    <span class="inline-input-wrapper">
+                        <input 
+                            type="text" 
+                            id="teamInput" 
+                            class="inline-team-input" 
+                            placeholder=""
+                            autocomplete="off"
+                        >
+                        <div class="dropdown" id="dropdown">
+                            <!-- Teams will be populated here -->
+                        </div>
+                    </span>
+                    <span class="question-mark">?</span>
+                </span>
+            </h1>
+        </header>
+
+        <div class="selector-section">
+            <button class="show-btn" id="showBtn" disabled>
+                <span class="btn-text">Show me</span>
+                <span class="btn-icon">→</span>
+            </button>
+        </div>
+
+        <div class="result-section" id="resultSection">
+            <div class="result-card" id="resultCard">
+                <div class="result-answer" id="resultAnswer"></div>
+                <div class="result-snark" id="resultSnark"></div>
+                <div class="result-details" id="resultDetails"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Data from ESPN • Updated live during the season</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
