@@ -719,9 +719,6 @@ function displayResult(comparison) {
                             <div class="performer-stats">${player.pts} PTS • ${player.ast} AST • ${player.reb} REB</div>
                         </div>
                     </div>
-                    <a href="https://www.espn.com/nba/boxscore/_/gameId/${matchup.gameId}" target="_blank" rel="noopener noreferrer" class="box-score-link">
-                        View full box score →
-                    </a>
                 </div>
             `;
         }

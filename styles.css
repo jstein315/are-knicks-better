@@ -641,19 +641,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-.box-score-link {
-    display: block;
-    margin-top: 0.75rem;
-    text-align: center;
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.box-score-link:hover {
-    color: var(--knicks-orange);
-}
 
 /* Share Section */
 .share-section {
